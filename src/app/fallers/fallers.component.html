@@ -1,0 +1,13 @@
+<h4 class="font-weight-normal-bold">Top Fallers</h4>
+<div class="table-fixed">
+<table class="table table-sm ">
+  <tbody>
+    <tr *ngFor="let item of array">
+      <td class="table-logo">{{item.logo}}</td>
+      <td>{{item.token}}</td>
+      <td>{{item.price | currency}}</td>
+      <td class="bg-danger rounded color-white text-center">{{item.rise | number}}</td>
+    </tr>
+  </tbody>
+</table>
+</div>

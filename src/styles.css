@@ -1,0 +1,46 @@
+body{
+  overflow-y: auto;
+}
+.bg-blue{
+  background:#082b58 !important
+}
+.header-footer-bg{
+  background-color: #1755a7;
+}
+.button-default{
+  border: none;
+  background: transparent;
+}
+.color-white{
+  color: #fff;
+}
+.font-weight-normal-bold {
+  font-weight: 500 !important;
+}
+.message-bg{
+  background: yellow;
+}
+.font-sm{
+  font-size: 12px;
+}
+.footer-positioning{
+  text-align: center;
+  bottom: 0;
+}
+.rise-green{
+  background: green;
+}
+.table-fixed{
+  overflow-y: auto;
+  height: 60%;
+}
+.table-logo{
+  color: gray;
+  font-style: italic;
+}
+.color-blue{
+  color:dodgerblue;
+}
+.table-fixed-lg{
+  height: 65%;
+}
