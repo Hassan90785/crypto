@@ -102,3 +102,13 @@ table th{
   color: white !important;
   outline: none!important;
 }
+.heading-border{
+  border-bottom: #212b8c 2px solid;
+}
+.mat-card-header-text{
+  margin: 0 !important;
+}
+.font-color-weight{
+  color: #212b8c;
+  font-weight: 600 !important;
+}

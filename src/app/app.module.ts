@@ -19,6 +19,7 @@ import {ReactiveFormsModule} from '@angular/forms';
 import {MatInputModule} from '@angular/material/input';
 import {MatFormFieldModule} from '@angular/material/form-field';
 import {MatCheckboxModule} from '@angular/material/checkbox';
+import { RegisterComponent } from './register/register.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -31,6 +32,7 @@ import {MatCheckboxModule} from '@angular/material/checkbox';
     MessageBarComponent,
     FooterComponent,
     LoginComponent,
+    RegisterComponent,
   ],
   imports: [
     BrowserModule,
