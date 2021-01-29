@@ -83,4 +83,6 @@
 .line-height-sm{
   line-height: 1;
 }
-
+.latest-token-table th,.latest-token-table td{
+  border: none !important;
+}
