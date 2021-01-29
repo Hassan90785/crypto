@@ -20,6 +20,8 @@ import {MatInputModule} from '@angular/material/input';
 import {MatFormFieldModule} from '@angular/material/form-field';
 import {MatCheckboxModule} from '@angular/material/checkbox';
 import { RegisterComponent } from './register/register.component';
+import { ContactUsComponent } from './contact-us/contact-us.component';
+import { AboutUsComponent } from './about-us/about-us.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -33,6 +35,8 @@ import { RegisterComponent } from './register/register.component';
     FooterComponent,
     LoginComponent,
     RegisterComponent,
+    ContactUsComponent,
+    AboutUsComponent,
   ],
   imports: [
     BrowserModule,

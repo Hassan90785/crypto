@@ -1,9 +1,9 @@
 <form [formGroup]="form">
-<div class="container body-height">
+<div class="container mb-3">
   <div class="d-flex justify-content-center mt-5 ">
       <mat-card class="mat-elevation-z8 mat-card-width">
         <mat-card-header class="heading-border mb-0 ">
-          <mat-card-title class="font-color-weight mb-1" >Register</mat-card-title>
+          <mat-card-title class="font-color-weight mb-1">Register</mat-card-title>
         </mat-card-header>
         <mat-card-content class="mt-3">
           <div class="row">
@@ -12,7 +12,7 @@
               <mat-label>
                 Username
               </mat-label>
-              <input formControlName="username"  matInput  placeholder="abc001" required
+              <input formControlName="username" matInput placeholder="abc001" required
                      type="text">
             </mat-form-field>
               </div>
@@ -23,7 +23,7 @@
               <mat-label>
                 Email
               </mat-label>
-              <input formControlName="email"  matInput name="email" placeholder="abc@xyz.com" required
+              <input formControlName="email" matInput name="email" placeholder="abc@xyz.com" required
                      type="email">
             </mat-form-field>
               </div>
@@ -34,7 +34,7 @@
               <mat-label>
                 Password
               </mat-label>
-              <input formControlName="password"  matInput name="password" placeholder="Password" required
+              <input formControlName="password" matInput name="password" placeholder="Password" required
                      type="password">
             </mat-form-field>
                </div>
@@ -52,7 +52,16 @@
             </div>
           <div class="row">
             <div class="col-md-12">
-          <mat-checkbox formControlName="sendEmail" color="primary">
+            <label class="custom-file-upload" for="file-upload">
+                 Custom Upload
+            </label>
+            <input formControlName="avatar" id="file-upload" type="file"/>
+              <span class="font-sm pl-1">{{selectedAvatar}}</span>
+            </div>
+          </div>
+              <div class="row">
+            <div class="col-md-12">
+          <mat-checkbox color="primary" formControlName="sendEmail">
            Send these credentials via email.
           </mat-checkbox>
             </div>

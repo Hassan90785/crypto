@@ -112,3 +112,20 @@ table th{
   color: #212b8c;
   font-weight: 600 !important;
 }
+.title-xl{
+  font-size: 59px !important;
+  font-weight: 600 !important;
+}
+.p-lg{
+  font-size: 17px !important;
+}
+input[type="file"] {
+  display: none;
+}
+.custom-file-upload {
+  background-color: #212b8c;
+  color: #fff;
+  display: inline-block;
+  padding: 6px 12px;
+  cursor: pointer;
+}
