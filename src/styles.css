@@ -129,3 +129,18 @@ input[type="file"] {
   padding: 6px 12px;
   cursor: pointer;
 }
+.mat-tab-label{
+  min-width: 30vw !important;
+}
+.table-lg-line-height{
+  line-height: 3;
+}
+.color-green{
+  color:green;
+}
+.box{
+  background-color: gray;
+  width: 25%;
+  height: 15vh;
+  float: left;
+}

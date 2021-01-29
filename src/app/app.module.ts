@@ -22,6 +22,12 @@ import {MatCheckboxModule} from '@angular/material/checkbox';
 import { RegisterComponent } from './register/register.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
 import { AboutUsComponent } from './about-us/about-us.component';
+import { AllListingComponent } from './all-listing/all-listing.component';
+import {MatTabsModule} from '@angular/material/tabs';
+import { ActiveListingComponent } from './active-listing/active-listing.component';
+import { ActivePresaleComponent } from './active-presale/active-presale.component';
+import { UpcommingPresaleComponent } from './upcomming-presale/upcomming-presale.component';
+import { TbaBoxComponent } from './tba-box/tba-box.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -37,6 +43,11 @@ import { AboutUsComponent } from './about-us/about-us.component';
     RegisterComponent,
     ContactUsComponent,
     AboutUsComponent,
+    AllListingComponent,
+    ActiveListingComponent,
+    ActivePresaleComponent,
+    UpcommingPresaleComponent,
+    TbaBoxComponent,
   ],
   imports: [
     BrowserModule,
@@ -48,6 +59,7 @@ import { AboutUsComponent } from './about-us/about-us.component';
     MatInputModule,
     MatFormFieldModule,
     MatCheckboxModule,
+    MatTabsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
