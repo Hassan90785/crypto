@@ -1,11 +1,20 @@
-body{
-  overflow-y: auto;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Helvetica Neue", "Calibri", Helvetica, Arial;
+  text-shadow: none !important;
+}
+@font-face {
+  font-family: "hn";
+  src: url("helveticaneuelt-webfont.woff") format("woff");
+  letter-spacing: 1px !important;
 }
 .bg-blue{
-  background:#082b58 !important
+  background:#0a6cea !important
 }
 .header-footer-bg{
-  background-color: #1755a7;
+  background-color: #212b8c;
 }
 .button-default{
   border: none;
@@ -17,15 +26,17 @@ body{
 .font-weight-normal-bold {
   font-weight: 500 !important;
 }
+.footer-positioning{
+  /*position: fixed;*/
+  /*bottom: 0;*/
+  width: 100%;
+  clear: both;
+}
 .message-bg{
   background: yellow;
 }
 .font-sm{
   font-size: 12px;
-}
-.footer-positioning{
-  text-align: center;
-  bottom: 0;
 }
 .rise-green{
   background: green;
@@ -34,6 +45,11 @@ body{
   overflow-y: auto;
   height: 60%;
 }
+.table-head-color{
+  background-color: #212b8c;
+  color:white;
+  position: sticky; top: 0;
+}
 .table-logo{
   color: gray;
   font-style: italic;
@@ -41,6 +57,30 @@ body{
 .color-blue{
   color:dodgerblue;
 }
-.table-fixed-lg{
-  height: 65%;
+
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3) !important;
+  background-color: #F5F5F5 !important;
 }
+
+::-webkit-scrollbar {
+  width: 8px !important;
+  height: 4px !important;
+  background-color: #F5F5F5 !important;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: gray !important;
+}
+.table-sm-height{
+  height: 20vh;
+  overflow-y: auto;
+}
+.table-lg-height{
+  height: 50vh;
+  overflow-y: auto;
+}
+.line-height-sm{
+  line-height: 1;
+}
+

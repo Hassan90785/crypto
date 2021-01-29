@@ -1,12 +1,12 @@
-<h4 class="font-weight-normal-bold ">Top Risers</h4>
-<div class="table-fixed">
-<table class="table table-sm ">
+<h4 class="font-weight-normal-bold  mb-0">Top Risers</h4>
+<div class=" table-lg-height">
+<table class="table table-sm table-hover">
   <tbody>
     <tr *ngFor="let item of array">
       <td class="table-logo">{{item.logo}}</td>
       <td>{{item.token}}</td>
       <td>{{item.price | currency}}</td>
-      <td class="rise-green rounded color-white text-center">{{item.rise | number}}</td>
+      <td class="color-white text-center"><span class="rise-green rounded-lg px-2 py-1 font-sm">{{item.rise | number}}</span></td>
     </tr>
   </tbody>
 </table>

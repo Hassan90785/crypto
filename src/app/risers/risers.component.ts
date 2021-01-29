@@ -18,7 +18,7 @@ export class RisersComponent implements OnInit {
   }
 
   initialization() {
-    for (let i = 0; i < 6; i++) {
+    for (let i = 0; i < 10; i++) {
       let obj = new Risers();
       obj.id = i;
       obj.logo = 'AIDUS';
