@@ -12,7 +12,13 @@ import { LatestAnnouncementsComponent } from './latest-announcements/latest-anno
 import { MessageBarComponent } from './message-bar/message-bar.component';
 import {NgMarqueeModule} from 'ng-marquee';
 import { FooterComponent } from './footer/footer.component';
-
+import { LoginComponent } from './login/login.component';
+import { AppRoutingModule } from './app-routing.module';
+import {MatCardModule} from '@angular/material/card';
+import {ReactiveFormsModule} from '@angular/forms';
+import {MatInputModule} from '@angular/material/input';
+import {MatFormFieldModule} from '@angular/material/form-field';
+import {MatCheckboxModule} from '@angular/material/checkbox';
 @NgModule({
   declarations: [
     AppComponent,
@@ -24,11 +30,18 @@ import { FooterComponent } from './footer/footer.component';
     LatestAnnouncementsComponent,
     MessageBarComponent,
     FooterComponent,
+    LoginComponent,
   ],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
     NgMarqueeModule,
+    AppRoutingModule,
+    MatCardModule,
+    ReactiveFormsModule,
+    MatInputModule,
+    MatFormFieldModule,
+    MatCheckboxModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

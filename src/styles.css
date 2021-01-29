@@ -27,8 +27,6 @@
   font-weight: 500 !important;
 }
 .footer-positioning{
-  /*position: fixed;*/
-  /*bottom: 0;*/
   width: 100%;
   clear: both;
 }
@@ -85,4 +83,22 @@
 }
 .latest-token-table th,.latest-token-table td{
   border: none !important;
+}
+table th{
+  vertical-align: middle !important;
+}
+.link-hover-none:hover{
+  color:white;
+  text-decoration: none;
+}
+.body-height{
+  height: 65vh;
+}
+.mat-card-width{
+  width:36%;
+}
+.btn-color{
+  background-color: #212b8c !important;
+  color: white !important;
+  outline: none!important;
 }
